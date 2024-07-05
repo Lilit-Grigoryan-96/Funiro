@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0"
+    />
+
+    <title>Funiro</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <div class="navbar flex">
+          <a class="navbar__logo" href="#">Funiro.</a>
+          <button class="navbar__toggler">&#9776;</button>
+          <nav class="navbar__container collapse flex">
+            <ul class="nav__menu flex">
+              <li class="nav__item">
+                <a href="#" class="nav__link">Products</a>
+              </li>
+              <li class="nav__item"><a href="#" class="nav__link">Rooms</a></li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Inspirations</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Products</a>
+              </li>
+              <div class="serch__form">
+                <input
+                  class="form-control mr-sm-2"
+                  type="search"
+                  placeholder="Search for minimalist chair"
+                  aria-label="Search"
+                />
+                <img src="images/Icons/Search.svg" />
+              </div>
+            </ul>
+            <ul class="nav__icons flex">
+              <li>
+                <img src="images/Icons/Heart.svg" alt="Favorits" />
+              </li>
+              <li>
+                <img src="images/Icons/Cart.svg" alt="Cart" />
+              </li>
+              <li>
+                <img src="images/Ellipse 2.png" alt="Admin" />
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header__slider">
+          <div class="desc">
+            <h1 class="desc__title">High-Quality Furniture Just For You</h1>
+            <p class="desc__text">
+              Our furniture is made from selected and best quality materials
+              that are suitable for your dream home
+            </p>
+            <button class="desc__btn btn">Shop Now</button>
+          </div>
+          <div class="image__slider swiper-container">
+            <div class="slider swiper-wrapper">
+              <div class="slider-item swiper-slide">
+                <img src="images/slide-1.jpg" alt="slide 1" />
+              </div>
+              <div class="slider-item swiper-slide">
+                <img src="images/slide-2.png" alt="slide 2" />
+              </div>
+              <div class="slider-item swiper-slide">
+                <img src="images/slide-3.png" alt="slide 3" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="feature section">
+      <div class="feature__container container">
+        <div class="feature__list flex">
+          <div class="feature__item flex">
+            <img class="feature__item-icon" src="images/Icons/trophy 1.svg" />
+            <div class="feature__item-content">
+              <h6 class="title">High Quality</h6>
+              <p class="text">crafted from top materials</p>
+            </div>
+          </div>
+          <div class="feature__item flex">
+            <img class="feature__item-icon" src="images/Icons/guarantee.svg" />
+            <div class="feature__item-content">
+              <h6 class="title">High Quality</h6>
+              <p class="text">crafted from top materials</p>
+            </div>
+          </div>
+          <div class="feature__item flex">
+            <img class="feature__item-icon" src="images/Icons/shipping.svg" />
+            <div class="feature__item-content">
+              <h6 class="title">High Quality</h6>
+              <p class="text">crafted from top materials</p>
+            </div>
+          </div>
+          <div class="feature__item flex">
+            <img
+              class="feature__item-icon"
+              src="images/Icons/customer-support.svg"
+            />
+            <div class="feature__item-content">
+              <h6 class="title">High Quality</h6>
+              <p class="text">crafted from top materials</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="products section">
+      <div class="products__container container">
+        <div class="section__title">
+          <h2 class="title">Our Products</h2>
+        </div>
+        <div class="products__list grid">
+          <div class="product__item">
+            <div class="product">
+              <img
+                class="product__img"
+                src="images/product-1.png"
+                alt="Card image cap"
+              />
+              <div class="product__footer">
+                <div class="sale flex">-30%</div>
+                <h5 class="product__title">Syltherine</h5>
+                <p class="product__text">Stylish cafe chair</p>
+                <div class="product__price flex">
+                  <p class="product__price-new">Rp 2.500.000</p>
+                  <p class="product__price-old">Rp 3.500.000</p>
+                </div>
+              </div>
+              <div class="product__hover">
+                <div class="hover__cont">
+                  <a href="#" class="hover__cont-btn">Add to cart</a>
+                  <div class="hover__cont-links">
+                    <a href="#">
+                      <img src="images/Icons/gridicons_share.svg" />
+                      Share
+                    </a>
+                    <a href="#">
+                      <img src="images/Icons/Heart-white.svg" />
+                      Like
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product">
+              <img
+                class="product__img"
+                src="images/product-2.png"
+                alt="Card image cap"
+              />
+              <div class="product__footer">
+                <h5 class="product__title">Leviosa</h5>
+                <p class="product__text">Stylish cafe chair</p>
+                <div class="product__price flex">
+                  <p class="product__price-new">Rp 2.500.000</p>
+                </div>
+              </div>
+              <div class="product__hover">
+                <div class="hover__cont">
+                  <a href="#" class="hover__cont-btn">Add to cart</a>
+                  <div class="hover__cont-links">
+                    <a href="#">
+                      <img src="images/Icons/gridicons_share.svg" />
+                      Share
+                    </a>
+                    <a href="#">
+                      <img src="images/Icons/Heart-white.svg" />
+                      Like
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product">
+              <img
+                class="product__img"
+                src="images/product-3.png"
+                alt="Card image cap"
+              />
+              <div class="product__footer">
+                <div class="sale flex">-50%</div>
+                <h5 class="product__title">Lolito</h5>
+                <p class="product__text">Luxury big sofa</p>
+                <div class="product__price flex">
+                  <p class="product__price-new">Rp 7.500.000</p>
+                  <p class="product__price-old">Rp 14.500.000</p>
+                </div>
+              </div>
+              <div class="product__hover">
+                <div class="hover__cont">
+                  <a href="#" class="hover__cont-btn">Add to cart</a>
+                  <div class="hover__cont-links">
+                    <a href="#">
+                      <img src="images/Icons/gridicons_share.svg" />
+                      Share
+                    </a>
+                    <a href="#">
+                      <img src="images/Icons/Heart-white.svg" />
+                      Like
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product">
+              <img
+                class="product__img"
+                src="images/product-1.png"
+                alt="Card image cap"
+              />
+              <div class="product__footer">
+                <div class="sale new flex">New</div>
+                <h5 class="product__title">Respira</h5>
+                <p class="product__text">Minimalist fan</p>
+                <div class="product__price flex">
+                  <p class="product__price-new">Rp 500.000</p>
+                </div>
+              </div>
+              <div class="product__hover">
+                <div class="hover__cont">
+                  <a href="#" class="hover__cont-btn">Add to cart</a>
+                  <div class="hover__cont-links">
+                    <a href="#">
+                      <img src="images/Icons/gridicons_share.svg" />
+                      Share
+                    </a>
+                    <a href="#">
+                      <img src="images/Icons/Heart-white.svg" />
+                      Like
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product">
+              <img
+                class="product__img"
+                src="images/product-5.png"
+                alt="Card image cap"
+              />
+              <div class="product__footer">
+                <div class="sale flex">-30%</div>
+                <h5 class="product__title">Grifo</h5>
+                <p class="product__text">Night lamp</p>
+                <div class="product__price flex">
+                  <p class="product__price-new">Rp 1.500.000</p>
+                </div>
+              </div>
+              <div class="product__hover">
+                <div class="hover__cont">
+                  <a href="#" class="hover__cont-btn">Add to cart</a>
+                  <div class="hover__cont-links">
+                    <a href="#">
+                      <img src="images/Icons/gridicons_share.svg" />
+                      Share
+                    </a>
+                    <a href="#">
+                      <img src="images/Icons/Heart-white.svg" />
+                      Like
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product">
+              <img
+                class="product__img"
+                src="images/product-6.png"
+                alt="Card image cap"
+              />
+              <div class="product__footer">
+                <h5 class="product__title">Muggo</h5>
+                <p class="product__text">Small mug</p>
+                <div class="product__price flex">
+                  <p class="product__price-new">Rp 2.500.000</p>
+                </div>
+              </div>
+              <div class="product__hover">
+                <div class="hover__cont">
+                  <a href="#" class="hover__cont-btn">Add to cart</a>
+                  <div class="hover__cont-links">
+                    <a href="#">
+                      <img src="images/Icons/gridicons_share.svg" />
+                      Share
+                    </a>
+                    <a href="#">
+                      <img src="images/Icons/Heart-white.svg" />
+                      Like
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product">
+              <img
+                class="product__img"
+                src="images/product-7.png"
+                alt="Card image cap"
+              />
+              <div class="product__footer">
+                <div class="sale flex">-50%</div>
+                <h5 class="product__title">Pingky</h5>
+                <p class="product__text">Cute bed set</p>
+                <div class="product__price flex">
+                  <p class="product__price-new">Rp 7.500.000</p>
+                  <p class="product__price-old">Rp 14.500.000</p>
+                </div>
+              </div>
+              <div class="product__hover">
+                <div class="hover__cont">
+                  <a href="#" class="hover__cont-btn">Add to cart</a>
+                  <div class="hover__cont-links">
+                    <a href="#">
+                      <img src="images/Icons/gridicons_share.svg" />
+                      Share
+                    </a>
+                    <a href="#">
+                      <img src="images/Icons/Heart-white.svg" />
+                      Like
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product">
+              <img
+                class="product__img"
+                src="images/product-8.png"
+                alt="Card image cap"
+              />
+              <div class="product__footer">
+                <div class="sale new flex">New</div>
+                <h5 class="product__title">Potty</h5>
+                <p class="product__text">Minimalist flower pot</p>
+                <div class="product__price flex">
+                  <p class="product__price-new">Rp 500.000</p>
+                </div>
+              </div>
+              <div class="product__hover">
+                <div class="hover__cont">
+                  <a href="#" class="hover__cont-btn">Add to cart</a>
+                  <div class="hover__cont-links">
+                    <a href="#">
+                      <img src="images/Icons/gridicons_share.svg" />
+                      Share
+                    </a>
+                    <a href="#">
+                      <img src="images/Icons/Heart-white.svg" />
+                      Like
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section__btn">
+          <a href="#" class="btn">Show More</a>
+        </div>
+      </div>
+    </section>
+    <section class="inspiration section">
+      <div class="inspiration__container container">
+        <div class="content flex">
+          <div class="content-left">
+            <div class="section__title">
+              <h2 class="title">50+ Beautiful rooms inspiration</h2>
+            </div>
+            <div class="content__text">
+              <p>
+                Our designer already made a lot of beautiful prototipe of rooms
+                that inspire you
+              </p>
+            </div>
+            <div class="section__btn">
+              <a class="btn" href="#">Explore More</a>
+            </div>
+          </div>
+          <div class="content-right">
+            <div class="inspiration___slider swiper-container">
+              <div class="slider swiper-wrapper">
+                <div class="slider-item swiper-slide">
+                  <img src="images/room-1.png" />
+                  <div class="slider-item-description">
+                    <p>01<span class="stripe"></span>Bed Room</p>
+                    <h4>Inner Peace</h4>
+                    <a href="#" class="slider-item-description-btn btn">
+                      <img src="images/Icons/Right 16px.svg" alt="Room 1" />
+                    </a>
+                  </div>
+                </div>
+                <div class="slider-item swiper-slide">
+                  <img src="images/room-2.png" alt="Room 2" />
+                  <div class="slider-item-description">
+                    <p>02<span class="stripe"></span>Bed Room</p>
+                    <h4>Inner Peace</h4>
+                    <a href="#" class="slider-item-description-btn btn">
+                      <img src="images/Icons/Right 16px.svg" alt="Room 2" />
+                    </a>
+                  </div>
+                </div>
+                <div class="slider-item swiper-slide">
+                  <img src="images/room-3.png" alt="Room 3" />
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tips section">
+      <div class="tips__container container">
+        <div class="section__title">
+          <h2 class="title">Tips & Tricks</h2>
+        </div>
+        <div class="tips__slider swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="carousel-card card">
+                <img
+                  class="card-img-top"
+                  src="images/post-1.png"
+                  alt="Card image"
+                />
+                <div class="carousel-card-body card-body">
+                  <h5 class="carousel-card-title">
+                    How to create a living room to love
+                  </h5>
+                  <p class="carousel-card-date">20 jan 2020</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="carousel-card card">
+                <img
+                  class="card-img-top"
+                  src="images/post-2.png"
+                  alt="Card image"
+                />
+                <div class="carousel-card-body card-body">
+                  <h5 class="carousel-card-title">
+                    Solution for clean look working space
+                  </h5>
+                  <p class="carousel-card-date">10 jan 2020</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="carousel-card card">
+                <img
+                  class="card-img-top"
+                  src="images/post-3.png"
+                  alt="Card image"
+                />
+                <div class="carousel-card-body card-body">
+                  <h5 class="carousel-card-title">
+                    Make your cooking activity more fun with good setup
+                  </h5>
+                  <p class="carousel-card-date">20 jan 2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="section gallery">
+      <div class="section__subtitle">
+        <h3 class="subtitle">Share your setup with</h3>
+      </div>
+      <div class="section__title">
+        <h2 class="title">#FuniroFurniture</h2>
+      </div>
+      <div class="photo__gallery flex">
+        <div class="column flex">
+          <div class="flex flex-end row">
+            <div class="photo">
+              <img src="images/furniture-1.png" alt="furniture" />
+            </div>
+            <div class="photo">
+              <img src="images/furniture-2.png" alt="furniture" />
+            </div>
+          </div>
+          <div class="flex flex-start row">
+            <div class="photo w-50">
+              <img src="images/furniture-3.png" alt="furniture" />
+            </div>
+
+            <div class="photo w-50">
+              <img src="images/furniture-4.png" alt="furniture" />
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <img src="images/furniture-5.png" alt="furniture" />
+        </div>
+        <div class="column flex">
+          <div class="flex flex-end row">
+            <div class="photo">
+              <img src="images/furniture-6.png" alt="furniture" />
+            </div>
+
+            <div class="photo">
+              <img src="images/furniture-7.png" alt="furniture" />
+            </div>
+          </div>
+          <div class="flex flex-start row">
+            <div class="photo w-50">
+              <img src="images/furniture-8.png" alt="furniture" />
+            </div>
+
+            <div class="photo w-50">
+              <img src="images/furniture-9.png" alt="furniture" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer section">
+      <div class="footer__container container">
+        <div class="footer__links flex">
+          <div class="footer__links-col">
+            <a href="/" class="logo"><h5 class="links__title">Funiro.</h5></a>
+            <div class="footer__text">
+              <p>
+                Worldwide furniture store since 2020. We sell over 1000+ branded
+                products on our website
+              </p>
+              <p>Sawojajar Malang, Indonesia</p>
+            </div>
+            <ul class="links__items">
+              <li><a href="tel:+62894563455">+6289 456 3455</a></li>
+              <li><a href="www.funiro.com">www.funiro.com</a></li>
+            </ul>
+          </div>
+          <div class="footer__links-col">
+            <h5 class="links__title">Menu</h5>
+            <ul class="links__items">
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Rooms</a></li>
+              <li><a href="#">Inspirations</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Terms & Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer__links-col">
+            <h5 class="links__title">Account</h5>
+            <ul class="links__items">
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Checkout</a></li>
+              <li><a href="#">My Cart</a></li>
+              <li><a href="#">My Catalog</a></li>
+            </ul>
+          </div>
+          <div class="footer__links-col">
+            <h5 class="links__title">Stay Connected</h5>
+            <ul class="links__items">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </div>
+          <div class="footer__links-col">
+            <h5 class="links__title">Stay Connected</h5>
+            <form class="footer__form flex">
+              <input type="email" name="mail" placeholder="Enter your email" />
+              <button class="btn">
+                <img src="images/Icons/carbon_send-alt-filled.svg" />
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
